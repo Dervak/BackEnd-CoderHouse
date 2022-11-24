@@ -29,7 +29,7 @@ class Container {
         fileData.filter(product => {
             return product.id === id
         })
-        return fileData
+        return fileData[0]
     }
     getAll = () => {
         let fileData = []
